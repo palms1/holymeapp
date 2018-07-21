@@ -1,0 +1,33 @@
+{
+  "name": "holyme",
+  "version": "1.0.0",
+  "description": "holyMe backend application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/palms1/holymeapp.git"
+  },
+  "keywords": [
+    "nodejs",
+    "holyme"
+  ],
+  "author": "Palmor Almeida",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/palms1/holymeapp/issues"
+  },
+  "homepage": "https://github.com/palms1/holymeapp#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.4",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.4.0"
+  }
+}
